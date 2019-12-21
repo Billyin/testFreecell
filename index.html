@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+    
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jquery-ui.min.js" type="text/javascript"></script>    
+    <script src="js/script.js" type="text/javascript"></script>
+
+    <title>Freecell Test</title>
+</head>
+<body>
+    <div id="main-table">
+        <section class="screen screen-1 start">
+            <div class="main-contanier">
+                <h1>Freecell</h1>
+                <div class="logos"><span class="red">♥</span><span class="black">♠</span><span class="red">♦</span><span class="black">♣</span></div>
+                <button id="playgame">Play</button>
+            </div>
+        </section>
+        <section class="screen screen-2 main">
+            <div class="main-contanier">
+                <div class="top-container">
+                    <div class="foundation-section">
+                        <p>Foundation</p>
+                        <div id="suit0" class="suit foundation"></div>
+                        <div id="suit1" class="suit foundation"></div>
+                        <div id="suit2" class="suit foundation"></div>
+                        <div id="suit3" class="suit foundation"></div>
+                    </div>
+                    <div class="free-cell-section">
+                        <p>Free cell</p>
+                        <div id="freeSection0" class="free"></div>
+                        <div id="freeSection1" class="free"></div>
+                        <div id="freeSection2" class="free"></div>
+                        <div id="freeSection3" class="free"></div> 
+                    </div>           
+                </div>
+                <div class="columns">
+                    <div id="col0" class="column"></div>
+                    <div id="col1" class="column"></div>
+                    <div id="col2" class="column"></div>
+                    <div id="col3" class="column"></div>
+                    <div id="col4" class="column"></div>
+                    <div id="col5" class="column"></div>
+                    <div id="col6" class="column"></div>
+                    <div id="col7" class="column"></div>
+                </div>
+            </div>
+        </section>
+        <section class="screen screen-3 end">
+            <div class="main-contanier">
+                <div class="win-message">
+                    <h1>You won!</h1>
+                    <div class="logos"><span class="red">♥</span><span class="black">♠</span><span class="red">♦</span><span class="black">♣</span></div>
+                    <button id="playagain">Play again</button>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
